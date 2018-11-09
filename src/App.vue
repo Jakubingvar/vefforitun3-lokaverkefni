@@ -3,6 +3,7 @@
     <div class="container">
       <h1>Lokaverkefni</h1>
       <p>Jakub Ingvar Pitak</p>
+      <p>halló heimur</p>
     </div>
   </div>
 </template>
