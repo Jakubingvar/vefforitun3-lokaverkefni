@@ -1,0 +1,143 @@
+$primaryColor: #FFD100;
+
+body{
+	background-color: #C8C8C8;
+	color: #343F4B;
+}
+
+.container {
+	width: 1200px;
+	font-size: 20px;
+	font-family: Helvetica;
+  h1{
+    background-color: $primaryColor;
+    border: 2px solid #343F4B;
+  }
+  p{
+    background-color: #343F4B;
+    color: white;
+    font-size: 20px;
+    padding-top: 0.5px;
+    padding-bottom: 1px;
+  }
+  button, input{
+  	background-color: $primaryColor;
+  	border: 2px solid #343F4B;
+  	// border-bottom: 2px solid #343F4B;
+  	// border-left: 1px solid #343F4B;
+  	// border-right: 1px solid #343F4B;
+  	padding: 3px;
+  	font-weight: bold;
+  	padding: 5px;
+  	// margin-left: -2px;
+  }
+  input{
+  	background-color: white;
+  	font-weight: normal;
+  	margin-left: 0px;
+  }
+  label{
+  	font-weight: bold;
+  	font-size: 24px;
+  }
+  .no_border{
+	border-right:0px solid;
+	border-left:0px solid;
+}
+
+}
+
+
+.utan_input{
+	background-color: #969FAA;
+	border: 2px solid #343F4B;
+	width: 1200px;
+}
+
+.input_all{
+	max-width: 800px;
+}
+
+.movies {
+	// background: red;
+	width: 1100px;
+
+	h1{
+		font-family: arial;
+	}
+	.img {
+	    position: relative;
+	    float: left;
+	    max-width:  100px;
+	    max-height: 100px;
+	    min-width: 100px;
+	    min-height: 100px;
+	    background-position: 50% 50%;
+	    background-repeat:   no-repeat;
+	    background-size:     cover;
+	    margin-bottom: 60px;
+	}
+	// .back_screen{
+	// 	background: red;
+	// }
+}
+
+.background_setting{
+	width: 1200px;
+	background: #E9E9E9;
+	border-left: 2px solid #343F4B;
+	border-right: 2px solid #343F4B;
+}
+
+.height_css{
+	margin-top: 300px;
+};
+
+.lina{
+	border-bottom: 2px solid;
+	width: 1200px;
+}
+
+.width_info{
+	width: 1200px;
+	border-left: 2px solid;
+	border-right: 2px solid;
+	border-top: 2px solid;
+}
+
+.width_info2{
+	width: 1200px;
+	border-left: 2px solid;
+	border-right: 2px solid;
+	border-bottom: 2px solid grey;
+}
+
+.more_details{
+	width: 1200px;
+	border-left: 2px solid;
+	border-right: 2px solid;
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	background: lightgrey;
+}
+
+.more{
+	margin-left: 915px;
+}
+
+.drop_down{
+	margin-left: 1080px;
+	margin-top: -50px;
+}
+
+.info{
+	width: 400px;
+}
+
+.important{
+	border-bottom: 2px solid grey;
+}
+
+.primary{
+	background: $primaryColor;
+}
